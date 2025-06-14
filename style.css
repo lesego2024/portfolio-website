@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: azure;
+    color: darkslategray;
+    padding: 20px;
+    text-align: center;
+}
+
+.about {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto; /*y value is 10px and x value axis is automatic*/
+    max-width: 600px; /* 600px is good size for android or phone*/
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.113);
+}
+
+h2 {
+    color: turquoise;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: darkslategray;
+    color: azure;
+}
+
+
