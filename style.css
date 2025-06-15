@@ -39,4 +39,102 @@ footer {
     color: azure;
 }
 
+.social-links {
+    margin-top: 10px; 
+}
 
+.social-links > a {
+    margin: 0px 10px;
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links > a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    color:chocolate; 
+}
+
+footer > p {
+    color: azure;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Project List */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: beige;
+    border-left: 4px solid #f1ac16;
+    padding: 15px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.113);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card > h3 {
+    margin-top: 0;
+    color:#f1ac16;
+}
+
+.project-card > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.project-card > a {
+    display: block 15px;
+    padding: 8px;
+    background-color: #70e1f5;
+    color:azure;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.project-card > a:hover {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color:cadetblue;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.navbar > li > a {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.navbar > li > a:hover {
+    background-color:lightskyblue;
+}
