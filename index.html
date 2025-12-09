@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesego Incorporated. - Digital Media & Marketing Services</title>
+    <title>Lesego Incorporated. - Digital Media & Premium Design</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -18,7 +18,7 @@
             width: max-content; 
         }
 
-        /* Base styles for scroll animation */
+        /* Base styles for scroll animation (Subtle transitions) */
         .animate-on-scroll {
             opacity: 0;
             transform: translateY(20px);
@@ -31,6 +31,7 @@
         }
     </style>
     <script>
+        // Custom Tailwind Configuration for branded colors
         tailwind.config = {
             theme: {
                 extend: {
@@ -76,8 +77,7 @@
                     <i class="fas fa-envelope mr-2"></i> Email Us
                 </a>
             </nav>
-
-            </div>
+        </div>
     </header>
 
     <main>
@@ -142,7 +142,7 @@
                         <li>Served as a **UX/UI Engineer at Maptek/Minlog**, specializing in user experience and interface design for complex software.</li>
                     </ul>
                     <p class="text-gray-300 text-lg mb-8">
-                        Today, we leverage this expertise, freelancing for vital organizations like the **New Jerusalem Children's Home** (including designing their website: [jerusalemchildrenshome.org](http://jerusalemchildrenshome.org)) and providing graphic/package design for **Stationery Display Services** in Fordsburg.
+                        Today, we leverage this expertise, **freelancing for the New Jerusalem Children's Home** (including designing their website: [jerusalemchildrenshome.org](http://jerusalemchildrenshome.org)) and providing graphic/package design for **Stationery Display Services** in Fordsburg.
                     </p>
                     <a href="#contact" class="bg-lesego-yellow text-lesego-dark font-medium py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300">
                         Discuss Your Project
@@ -160,9 +160,10 @@
                     <p class="text-xl text-gray-400 mb-6">
                         Choose the corporate identity and media package that best fits your brand's growth stage.
                     </p>
-                    <div class="inline-block bg-lesego-yellow/20 text-lesego-yellow px-6 py-3 rounded-full font-bold text-lg border border-lesego-yellow animate-on-scroll" data-anchor>
-                         In-House Services Rate: R150 per hour 
-                        <span class="text-sm text-gray-300">(UX/UI Design, Web Dev, Video Editing & more)</span>
+                    <div class="inline-block bg-lesego-yellow/20 text-lesego-yellow px-6 py-3 rounded-full font-bold text-lg border border-lesego-yellow shadow-xl animate-on-scroll" data-anchor>
+                         <i class="fas fa-handshake mr-2"></i> **In-House Services Rate: R150 per hour** <span class="text-sm text-gray-300 block sm:inline-block mt-1 sm:mt-0">
+                            (UX/UI Design, Web/App Design, Web Dev, Graphic Design, Video Editing, Cinematography, Illustration)
+                        </span>
                     </div>
                 </div>
 
@@ -230,19 +231,19 @@
             
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="group relative overflow-hidden rounded-xl shadow-2xl animate-on-scroll" data-anchor>
-                    <img src="https://source.unsplash.com/800x600/?branding,design,corporate" alt="Branding Project" class="w-full h-72 object-cover transition duration-500 group-hover:scale-105">
+                    <img src="https://source.unsplash.com/800x600/?branding,design,corporate" alt="Branding Project Placeholder" class="w-full h-72 object-cover transition duration-500 group-hover:scale-105">
                     <div class="absolute inset-0 bg-lesego-dark/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
                         <h3 class="text-white text-2xl font-bold border-b-2 border-lesego-yellow pb-1">Corporate Identity</h3>
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-xl shadow-2xl animate-on-scroll" data-anchor>
-                    <img src="https://source.unsplash.com/800x600/?filmmaking,video,production" alt="Cinematography Project" class="w-full h-72 object-cover transition duration-500 group-hover:scale-105">
+                    <img src="https://source.unsplash.com/800x600/?filmmaking,video,production" alt="Cinematography Project Placeholder" class="w-full h-72 object-cover transition duration-500 group-hover:scale-105">
                     <div class="absolute inset-0 bg-lesego-dark/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
                         <h3 class="text-white text-2xl font-bold border-b-2 border-lesego-yellow pb-1">Video Production</h3>
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-xl shadow-2xl animate-on-scroll" data-anchor>
-                    <img src="https://source.unsplash.com/800x600/?webdesign,uxui,application" alt="UX/UI Project" class="w-full h-72 object-cover transition duration-500 group-hover:scale-105">
+                    <img src="https://source.unsplash.com/800x600/?webdesign,uxui,application" alt="UX/UI Project Placeholder" class="w-full h-72 object-cover transition duration-500 group-hover:scale-105">
                     <div class="absolute inset-0 bg-lesego-dark/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
                         <h3 class="text-white text-2xl font-bold border-b-2 border-lesego-yellow pb-1">UX/UI Solutions</h3>
                     </div>
@@ -305,7 +306,7 @@
                             <input type="tel" name="phone" placeholder="Your Phone (Optional)"
                                    class="w-full bg-gray-700 text-white p-3 rounded-lg border border-gray-600 focus:border-lesego-yellow focus:ring-1 focus:ring-lesego-yellow outline-none transition duration-200">
 
-                            <textarea name="message" rows="4" placeholder="How can we help you? Include details about the services (UXUI, Web Dev, etc.)" required 
+                            <textarea name="message" rows="4" placeholder="How can we help you? (Mention in-house service needs if applicable)" required 
                                       class="w-full bg-gray-700 text-white p-3 rounded-lg border border-gray-600 focus:border-lesego-yellow focus:ring-1 focus:ring-lesego-yellow outline-none transition duration-200"></textarea>
 
                             <button type="submit" 
@@ -365,7 +366,6 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('is-visible');
-                    // Stop observing once visible to prevent re-animation on scroll
                     // observer.unobserve(entry.target); 
                 }
             });
